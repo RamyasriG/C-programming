@@ -2,10 +2,10 @@
 
 int main()
 {
-    int nn,i,sum;
+    int nnn,i,sum;
     sum=0;
-    scanf("%d",&nn);
-    for(i=1;i<=nn;i++)
+    scanf("%d",&nnn);
+    for(i=1;i<=nnn;i++)
     {
         sum=sum+i;
     }
