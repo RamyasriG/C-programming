@@ -6,7 +6,7 @@ int main() {
 	scanf("%d",&num);
 	if(num<0)
 	{
-		printf("Invalid");
+		printf("invalid");
 	}
 	else
 	{
