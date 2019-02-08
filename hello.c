@@ -2,12 +2,12 @@
 
 int main()
 {
-    int n,i;
-    char a[]="Hello";
-    scanf("%d",&n);
-    for(i=0;i<n;i++)
+    int nn,i;
+    char ab[]="Hello";
+    scanf("%d",&nn);
+    for(i=0;i<nn;i++)
     {
-        printf("\n%s",&a);
+        printf("\n%s",&ab);
     }
     return 0;
 }
