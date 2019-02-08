@@ -2,10 +2,10 @@
 
 int main()
 {
-    int nn,i;
+    int nnn,i;
     char ab[]="Hello";
-    scanf("%d",&nn);
-    for(i=0;i<nn;i++)
+    scanf("%d",&nnn);
+    for(i=0;i<nnn;i++)
     {
         printf("\n%s",&ab);
     }
