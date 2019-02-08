@@ -2,30 +2,27 @@
 
 int main()
 {
-    char ch;
+    char cha;
 
-    /* Input character from user */
+    
    
     scanf("%c", &ch);
 
 
-    /* Condition for vowel */
-    if(ch=='a' || ch=='e' || ch=='i' || ch=='o' || ch=='u' || 
-       ch=='A' || ch=='E' || ch=='I' || ch=='O' || ch=='U')
+
+    if(cha=='a' || cha=='e' || cha=='i' || cha=='o' || cha=='u' || 
+       cha=='A' || cha=='E' || cha=='I' || cha=='O' || cha=='U')
     {
         printf("Vowel");
     }
-    else if((ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z'))
+    else if((cha >= 'a' && cha <= 'z') || (cha >= 'A' && cha <= 'Z'))
     {
-        /* Condition for consonant */
+       
         printf("Consonant");
     }
     else 
     {
-        /*
-         * If it is neither vowel nor consonant
-         * then it is not an alphabet.
-         */
+      
         printf("invalid");
     }
 
