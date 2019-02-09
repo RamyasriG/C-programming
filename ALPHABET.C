@@ -2,9 +2,9 @@
 
 int main()
 {
-   char cs;
-   scanf("%c",&cs);
-   if((cs>='a'&&cs<='z')||(cs>='A'&&cs<='Z'))
+   char csP;
+   scanf("%c",&csP);
+   if((csP>='a'&&csP<='z')||(csP>='A'&&csP<='Z'))
    {
        printf("Alphabet");
    }
